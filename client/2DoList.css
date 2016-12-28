@@ -1,0 +1,107 @@
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+}
+
+.taskMenu {
+    font-size: 1em;
+    width: 175px;
+    height: 50px;
+
+}
+button:hover{
+    cursor: pointer;
+}
+#speed {
+    float:left;
+    align-content: left;
+}
+#Mybtn {
+    background-color: #7FCBFE;
+    box-sizing: 1em;
+    font-size: 1em;
+    border: 1em;
+    border-radius: 1em;
+}
+#Mybtn:hover{
+    opacity: 0.5;
+}
+#addTaskIN , #editTaskIN{
+    background-color: white;
+    width: 100%;
+    height: 30px;
+    box-shadow: 0;
+}
+
+#editDescription , #description {
+    width: 50%;
+    height: 40px;
+}
+#submitTask, #cancelTask, #editTask, #cancelEdit{
+    background-color: rgb(143,213,255);
+    text-decoration-color: black;
+    border: 1em;
+}
+#submitTask:hover, #cancelTask:hover, #editTask:hover, #cancelEdit:hover {
+    background-color: rgb(143,213,255);
+    border: 1em;
+    opacity: 0.5;
+}
+
+.dueDate {
+    font-size:0.7em;
+}
+
+.dropdown-menu {
+    border: 3px solid #d3d3d3;
+    font-weight: normal;
+    border-radius: 1em;
+    color: #555555;
+}
+
+.archive, .editTask, .deleteTask, .markAsDone {
+    cursor: pointer;
+    padding-left: 2em;
+}
+
+#sortOptions {
+    cursor: pointer;
+    margin-bottom: 1.7em;
+    margin-left: .7em;
+}
+
+.sortByDate:hover, .sortByName:hover, .archive:hover, .editTask:hover , .deleteTask:hover, .markAsDone:hover {
+    opacity: 0.5;
+}
+
+.sortByDate ,.sortByName {
+    padding-left: 2em;
+    cursor: pointer;
+}
+.actionButton, #sortOptions {
+    background-color: white;
+    border: 1em;
+    border-radius: 1em;
+}
+
+.hoverOnTask:hover {
+    background-color: rgb(231,231,231);
+}
+
+#cancelDeletSelected {
+    padding-left: 2em;
+}
+
+  .modal-header, h4, .close {
+      background-color: #5cb85c;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+
+
